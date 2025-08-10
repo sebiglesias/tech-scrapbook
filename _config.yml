@@ -27,3 +27,7 @@ defaults:
 # Plugins (enable in GitHub Pages)
 plugins:
   - jekyll-polyglot  # For language detection
+
+polyglot:
+  enabled: true
+  lang_from_path: true
