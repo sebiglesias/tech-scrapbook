@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This is crucial!
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           keep_files: true
+          force_orphan: true  # Clean old files
