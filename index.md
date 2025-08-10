@@ -4,7 +4,5 @@ layout: page
 
 # 👋 ¡Hola! / Hello!
 
-- [Leer en español](/es)  
-- [Read in English](/en)
-
-{% include lang-switcher.html %}
+- [Leer en español](/tech-scrapbook/es)  
+- [Read in English](/tech-scrapbook/en)
