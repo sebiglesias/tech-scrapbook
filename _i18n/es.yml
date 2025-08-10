@@ -1,0 +1,5 @@
+header:
+  shared: "🔗 Compartidos"
+  tried: "🛠 Probé"
+  finds: "❓ Hallazgos"
+footer: "Generado con Sebastián Iglesias + GitHub Actions."
