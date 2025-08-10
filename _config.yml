@@ -1,0 +1,29 @@
+title: "Seb's Tech Scrapbook"
+description: "Experimentos, enlaces y ideas a medio cocinar / Experiments, links, and half-baked ideas."
+baseurl: "/"
+url: "https://sebiglesias.com.ar/tech-scrapbook"
+
+# Multilingual support
+collections:
+  posts_en:
+    output: true
+    permalink: /en/:year/:title/
+  posts_es:
+    output: true
+    permalink: /es/:year/:title/
+
+defaults:
+  - scope:
+      path: "_posts/en"
+    values:
+      lang: en
+      layout: post
+  - scope:
+      path: "_posts/es"
+    values:
+      lang: es
+      layout: post
+
+# Plugins (enable in GitHub Pages)
+plugins:
+  - jekyll-polyglot  # For language detection
