@@ -1,7 +1,7 @@
 title: "Seb's Tech Scrapbook"
 description: "Experimentos, enlaces y ideas a medio cocinar / Experiments, links, and half-baked ideas."
-baseurl: "/"
-url: "https://sebiglesias.com.ar/tech-scrapbook"
+baseurl: "/tech-scrapbook"
+url: "https://sebiglesias.com.ar"
 
 # Multilingual support
 collections:
