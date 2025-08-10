@@ -7,10 +7,10 @@ url: "https://sebiglesias.com.ar"
 collections:
   posts_en:
     output: true
-    permalink: /en/:year/:title/
+    permalink: /tech-scrapbook/en/:year/:title/
   posts_es:
     output: true
-    permalink: /es/:year/:title/
+    permalink: /tech-scrapbook/es/:year/:title/
 
 defaults:
   - scope:
