@@ -6,8 +6,8 @@ permalink: /
 
 <div class="home">
   <div class="language-selector">
-    <a href="{{ site.baseurl }}/en/" class="language-btn">English</a>
-    <a href="{{ site.baseurl }}/es/" class="language-btn">Español</a>
+    <a href="{{ site.baseurl }}/_posts/en/" class="language-btn">English</a>
+    <a href="{{ site.baseurl }}/_posts/es/" class="language-btn">Español</a>
   </div>
 
   <h2>Latest Updates</h2>
@@ -25,10 +25,6 @@ permalink: /
       <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </article>
     {% endfor %}
-  </div>
-
-  <div class="footer-note">
-    <p>Built with Jekyll and GitHub Pages</p>
   </div>
 </div>
 
